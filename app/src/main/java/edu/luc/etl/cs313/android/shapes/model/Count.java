@@ -34,25 +34,21 @@ public class Count implements Visitor<Integer> {
 
     @Override
     public Integer onOutline(final Outline o) {
-
         return o.getShape().accept(this);
     }
 
     @Override
     public Integer onFill(final Fill c) {
-
         return c.getShape().accept(this);
     }
 
     @Override
     public Integer onLocation(final Location l) {
-
         return l.getShape().accept(this);
     }
 
     @Override
     public Integer onStrokeColor(final StrokeColor c) {
-
         return c.getShape().accept(this);
     }
 }
