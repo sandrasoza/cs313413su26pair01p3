@@ -16,7 +16,7 @@ public final class StrokeColor implements Shape {
     }
 
     public int getColor() {
-        return getColor();
+        return color;
     }
 
     public Shape getShape() {
