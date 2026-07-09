@@ -7,8 +7,8 @@ package edu.luc.etl.cs313.android.shapes.model;
 public final class StrokeColor implements Shape {
 
     // TODO entirely your job
-    private final int color;
-    private final Shape shape;
+    protected final int color;
+    protected final Shape shape;
 
     public StrokeColor(final int color, final Shape shape) {
         this.color = color;
@@ -16,7 +16,7 @@ public final class StrokeColor implements Shape {
     }
 
     public int getColor() {
-        return color;
+        return getColor();
     }
 
     public Shape getShape() {
