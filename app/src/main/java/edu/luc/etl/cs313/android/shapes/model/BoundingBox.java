@@ -7,8 +7,6 @@ package edu.luc.etl.cs313.android.shapes.model;
  */
 public class BoundingBox implements Visitor<Location> {
 
-    // TODO entirely your job (except onCircle)
-
     @Override
     public Location onCircle(final Circle c) {
         final int radius = c.getRadius();
